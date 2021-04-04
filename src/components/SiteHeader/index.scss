@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.site-header {
+  background-color: $toolbar-color;
+  padding: 1rem 2rem;
+
+  .title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+}
