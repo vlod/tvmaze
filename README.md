@@ -9,7 +9,7 @@ Using TV Maze API to return search results
 
 TODO:
 - search input, hit return sends search
-- reponsive
+- responsive
 - tests
 
 BUGS:
