@@ -2,6 +2,10 @@
 
 Using TV Maze API to return search results
 
+```
+  npm install
+  npm start
+```
 
 TODO:
 - search input, hit return sends search
