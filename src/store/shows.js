@@ -10,10 +10,6 @@ const slice = createSlice({
   name: 'shows',
   initialState: {
     results: null,
-    // user: null,
-    // authenticated: null,
-    // authenticating: null,
-    // errorMessage: null,
   },
   reducers: {},
   extraReducers: {
@@ -22,18 +18,12 @@ const slice = createSlice({
     },
     [search.fulfilled]: (state, action) => {
       // console.log('search.fulfilled');
-      // state.user = { _id: action.payload.user._id, name: action.payload.user.name };
       state.results = action.payload;
     },
     [search.rejected]: (state) => {
       console.log('search.rejected');
-      // state.authenticated = false;
-      // state.authenticating = false;
     },
   },
 });
 
 export default slice.reducer;
-// export const { noLogin } = slice.actions;
-// export const logout = () => (dispatch) => axios.get('/api/v1/auth/logout')
-//   .then(() => dispatch(slice.actions.logoutSuccess()));
