@@ -13,4 +13,4 @@ TODO:
 - tests
 
 BUGS:
-- search, then go to home page (click Show findcer), search should reset
+- search, then go to home page (click Show Finder), search should reset
